@@ -28,24 +28,32 @@ public class HelloWorldSparkFreemarkerStyle {
        // Template temp = cfg.getTemplate("test.ftl");
       //  Configuration cfg = new Configuration();
         cfg.setClassForTemplateLoading(HelloWorldSparkFreemarkerStyle.class, "/");
-
+        System.out.println("1");
 
         Spark.get("/", new Route() {
             public Object handle(Request request, Response response) throws Exception {
+                System.out.println("2");
                 StringWriter writer = new StringWriter();
+                System.out.println("3");
                 try {
+                    System.out.println("4");
                     Template helloTemplate = cfg.getTemplate("hello.ftl");
+                    System.out.println("5");
 
                     Map<String, Object> helloMap = new HashMap<String, Object>();
+                    System.out.println("6");
                     helloMap.put("name", "Sergey");
+                    System.out.println("7");
                     helloTemplate.process(helloMap, writer);
-                    System.out.println(writer);
+                    System.out.println("8");
+                    //System.out.println(writer);
+                    return "TEST";
 
                 } catch (Exception e) {
                     halt(500);
                     e.printStackTrace();
                 }
-                return writer;
+                return "1";
             }
         });
     }

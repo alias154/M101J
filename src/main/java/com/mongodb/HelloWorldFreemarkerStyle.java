@@ -24,15 +24,11 @@ public class HelloWorldFreemarkerStyle {
             StringWriter writer = new StringWriter();
             Map<String, Object> helloMap = new HashMap<String, Object>( );
             helloMap.put("name", "Sergey");
+            helloTemplate.process(helloMap,writer);
+            System.out.println(writer);
 
-            try {
-                helloTemplate.process(helloMap,writer);
-                System.out.println(writer);
-            } catch (TemplateException e) {
-                e.printStackTrace();
-            }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
