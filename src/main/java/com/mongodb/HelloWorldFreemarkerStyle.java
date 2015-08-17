@@ -15,7 +15,7 @@ import java.util.Map;
 public class HelloWorldFreemarkerStyle {
     public static void main(String[] args) throws IOException {
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_22);
-        cfg.setDirectoryForTemplateLoading(new File("F:\\java_project\\M101J\\src\\main\\resource"));
+        cfg.setDirectoryForTemplateLoading(new File("C:\\Users\\1\\IdeaProjects\\M101J\\src\\main\\resource"));
         cfg.setDefaultEncoding("UTF-8");
         cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
 
