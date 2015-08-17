@@ -22,11 +22,8 @@ import static spark.Spark.halt;
 public class HelloWorldSparkFreemarkerStyle {
     public static void main(String[] args) throws IOException {
         final Configuration cfg = new Configuration(Configuration.VERSION_2_3_22);
-        cfg.setDirectoryForTemplateLoading(new File("C:\\Users\\1\\IdeaProjects\\M101J\\src\\main\\resource"));
         cfg.setDefaultEncoding("UTF-8");
        cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
-       // Template temp = cfg.getTemplate("test.ftl");
-      //  Configuration cfg = new Configuration();
         cfg.setClassForTemplateLoading(HelloWorldSparkFreemarkerStyle.class, "/");
 
         Spark.get("/", new Route() {
