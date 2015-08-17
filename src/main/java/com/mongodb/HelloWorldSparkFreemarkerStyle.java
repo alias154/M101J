@@ -2,7 +2,6 @@ package com.mongodb;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;
 import spark.Request;
 import spark.Response;
@@ -23,7 +22,7 @@ import static spark.Spark.halt;
 public class HelloWorldSparkFreemarkerStyle {
     public static void main(String[] args) throws IOException {
         final Configuration cfg = new Configuration(Configuration.VERSION_2_3_22);
-        cfg.setDirectoryForTemplateLoading(new File("F:\\java_project\\M101J\\src\\main\\resource"));
+        cfg.setDirectoryForTemplateLoading(new File("src/main/resource"));
         cfg.setDefaultEncoding("UTF-8");
        cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
        // Template temp = cfg.getTemplate("test.ftl");
@@ -37,7 +36,7 @@ public class HelloWorldSparkFreemarkerStyle {
                 try {
                     Template helloTemplate = cfg.getTemplate("hello.ftl");
 
-                    Map<String, Object> helloMap = new HashMap<String, Object>( );
+                    Map<String, Object> helloMap = new HashMap<String, Object>();
                     helloMap.put("name", "Sergey");
                     helloTemplate.process(helloMap, writer);
                     System.out.println(writer);
