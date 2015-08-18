@@ -53,7 +53,6 @@ public class InsertTest {
                 .append("proffesion","hacker");
 
         collection.insert((List<? extends DBObject>) asList(smith,jones));
-        printK
 
     }
 }
