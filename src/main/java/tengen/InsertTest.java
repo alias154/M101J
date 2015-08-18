@@ -15,15 +15,21 @@
  *
  */
 
-package com.tengen;
+package tengen;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
+import org.bson.Document;
+
 
 import java.net.UnknownHostException;
+import java.util.Collection;
+import java.util.List;
+
+import static java.util.Arrays.asList;
 
 public class InsertTest {
     public static void main(String[] args) throws UnknownHostException {
@@ -33,10 +39,21 @@ public class InsertTest {
 
         collection.drop();
 
-        DBObject doc = new BasicDBObject().append("x", 1);
+//        DBObject doc = new BasicDBObject().append("x", 1);
+//
+//        collection.insert(doc);
+//        collection.insert(doc);
 
-        collection.insert(doc);
-        collection.insert(doc);
+        Document smith = new Document("name","Smith")
+                    .append("age", "30")
+                    .append("proffesion", "programmer");
+
+        Document jones = new Document("name","Jones")
+                .append("age","25")
+                .append("proffesion","hacker");
+
+        collection.insert((List<? extends DBObject>) asList(smith,jones));
+        printK
 
     }
 }

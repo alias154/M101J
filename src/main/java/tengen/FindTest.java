@@ -17,43 +17,63 @@
 
 package com.tengen;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.DBCursor;
-import com.mongodb.DBObject;
-import com.mongodb.MongoClient;
+import com.mongodb.*;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import com.mongodb.client.MongoDatabase;
+import org.bson.Document;
 
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class FindTest {
     public static void main(String[] args) throws UnknownHostException {
         MongoClient client = new MongoClient();
-        DB db = client.getDB("course");
-        DBCollection collection = db.getCollection("findTest");
+        MongoDatabase mongoDatabase = client.getDatabase("course");
+        MongoCollection<Document> collection = mongoDatabase.getCollection("findTest");
+
+
         collection.drop();
 
         // insert 10 documents with a random integer as the value of field "x"
         for (int i = 0; i < 10; i++) {
-            collection.insert(new BasicDBObject("x", new Random().nextInt(100)));
+            collection.insertOne(new Document("x", new Random().nextInt(100)));
         }
 
         System.out.println("Find one:");
-        DBObject one = collection.findOne();
+        Document one = collection.find().first();
         System.out.println(one);
 
         System.out.println("\nFind all: ");
-        DBCursor cursor = collection.find();
+        List<Document> all = collection.find().into(new ArrayList<Document>());
+        System.out.println(all);
+
+        System.out.println("\nFind all cursor: ");
+        MongoCursor<Document> cursor = collection.find().iterator();
         try {
-          while (cursor.hasNext()) {
-              DBObject cur = cursor.next();
-              System.out.println(cur);
-          }
+
+            while (cursor.hasNext()) {
+                System.out.println(cursor.next());
+            }
+
         } finally {
             cursor.close();
         }
 
+
+//        System.out.println("\nFind all: ");
+//        DBCursor cursor = collection.find();
+//        try {
+//          while (cursor.hasNext()) {
+//              DBObject cur = cursor.next();
+//              System.out.println(cur);
+//          }
+//        } finally {
+//            cursor.close();
+//        }
+//
         System.out.println("\nCount:");
         long count = collection.count();
         System.out.println(count);
