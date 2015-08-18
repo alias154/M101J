@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a55f87c9-d34f-4d67-a3a1-60db72e74411" name="Default" comment="">
+    <list default="true" id="a55f87c9-d34f-4d67-a3a1-60db72e74411" name="Default" comment="" />
+    <list id="2f37e3de-e45d-42e1-87b4-fcd0f7dc13c0" name="New changelist" comment="New changelist">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mongodb/App.class" afterPath="$PROJECT_DIR$/target/classes/com/mongodb/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mongodb/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mongodb/AppTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldFreemarkerStyle.class" afterPath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldFreemarkerStyle.class" />
@@ -9,10 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkFreemarkerStyle.class" afterPath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkFreemarkerStyle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkStyle$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkStyle$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkStyle.class" afterPath="$PROJECT_DIR$/target/classes/com/mongodb/HelloWorldSparkStyle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M101J.iml" afterPath="$PROJECT_DIR$/M101J.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M101J.iws" />
@@ -40,50 +37,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldFreemarkerStyle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldSparkFreemarkerStyle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1375#1391#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M101J.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/M101J.iml">
+      <file leaf-file-name="HelloWorldFreemarkerStyle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4022082">
-              <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/hello.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
-              <folding />
+            <state vertical-scroll-proportion="0.78548896">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#927#943#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -522,10 +491,24 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a55f87c9-d34f-4d67-a3a1-60db72e74411" name="Default" comment="" />
+      <changelist id="2f37e3de-e45d-42e1-87b4-fcd0f7dc13c0" name="New changelist" comment="" />
       <created>1439818506364</created>
       <option name="number" value="Default" />
       <updated>1439818506364</updated>
     </task>
+    <task id="LOCAL-00001" summary="edit resource">
+      <created>1439825551602</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1439825551602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="spark freemark edit">
+      <created>1439826255459</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439826255459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -559,7 +542,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2269188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33481646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -581,9 +564,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit resource" />
+    <MESSAGE value="spark freemark edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark freemark edit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -651,10 +639,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java">
+    <entry file="file://$PROJECT_DIR$/M101J.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.4022082">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/hello.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1340694">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -663,34 +659,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/hello.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5694006">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1375#1391#0" expanded="true" />
+            <element signature="e#1579#1595#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M101J.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4022082">
-          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
-          <folding />
+        <state vertical-scroll-proportion="0.78548896">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#927#943#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
