@@ -15,7 +15,7 @@
  *
  */
 
-package tengen;
+package com.tengen;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -53,7 +53,6 @@ public class InsertTest {
                 .append("proffesion","hacker");
 
         collection.insert((List<? extends DBObject>) asList(smith,jones));
-        printK
 
     }
 }

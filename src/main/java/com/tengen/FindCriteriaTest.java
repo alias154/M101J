@@ -15,7 +15,7 @@
  *
  */
 
-package tengen;
+package com.tengen;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
